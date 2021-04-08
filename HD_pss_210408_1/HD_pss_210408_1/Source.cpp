@@ -11,7 +11,7 @@ for([초기화 되는 변수 즉 , 시작지점 ]; [조건] 반복횟수; 시작변수를 증감 시킴 +- 
 void main() {
 	
 	
-	
+	/* for문 예시
 	for (int i = 10; i >0; i++) {
 
 		//i=10
@@ -21,8 +21,14 @@ void main() {
 	}
 
 	fgetc(stdin);
-
+	*/
 	
+	for (int i = 0; i < 3; i++) {
+		for (int k = 0l; k < 10; k++) {
+			printf("*");
+		}
+		printf("\n");
+	}
 	
 	
 	/*while (true) {
@@ -41,7 +47,7 @@ void main() {
 
 		}
 */
-
+	fgetc(stdin);
 
 
 
